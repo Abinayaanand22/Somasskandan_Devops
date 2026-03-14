@@ -1,10 +1,10 @@
-name: somaskkandan
- 
+name: Demo Pipeline
+
 on: push
- 
+
 jobs:
-My-test-job: 
-    runs-on: ubuntu-latest 
+  My-test-job:
+    runs-on: ubuntu-latest
     steps:
-          - name: message 
-           run: echo "CI Pipeline Running"
+      - name: message
+        run: echo "CI Pipeline Running"
